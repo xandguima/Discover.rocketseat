@@ -14,10 +14,10 @@ function toggleMode() {
   }
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar imagem
-    Text.setAttribute('alt', 'imagem romaniac')
+    img.setAttribute('alt', 'imagem romaniac')
   } else {
     //se tiver sem light mode , manter imagem normal
-    text.setAttribute('alt','imagem reality strike' )
+    img.setAttribute('alt','imagem reality strike')
   }
   
 }
